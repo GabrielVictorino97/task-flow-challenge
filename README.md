@@ -70,6 +70,24 @@ http://localhost:3333/docs
 | `npm run build:web` | Gera o build do frontend |
 | `npm run test:api` | Executa os testes da API |
 
+## Testes e Coverage
+
+Para rodar os testes com relatório de cobertura:
+
+```bash
+cd apps/api && npx jest --runInBand --coverage
+```
+
+Após a execução, abra o relatório HTML no navegador:
+
+```bash
+# Linux/macOS
+open apps/api/coverage/index.html
+
+# Windows
+start apps\api\coverage\index.html
+```
+
 ## Endpoints
 
 ### Auth
