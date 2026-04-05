@@ -84,6 +84,7 @@ http://localhost:3333/docs
 | POST | `/api/tasks` | Cria uma tarefa |
 | POST | `/api/tasks/bulk` | Cria múltiplas tarefas |
 | GET | `/api/tasks` | Lista todas as tarefas do usuário |
+| GET | `/api/tasks/status` | Lista os status disponíveis |
 | GET | `/api/tasks/:id` | Busca uma tarefa pelo ID |
 | PATCH | `/api/tasks/:id` | Atualiza uma tarefa |
 | DELETE | `/api/tasks/:id` | Remove uma tarefa |
