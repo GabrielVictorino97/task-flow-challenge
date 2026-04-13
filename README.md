@@ -65,27 +65,21 @@ http://localhost:3333/docs
 | Comando | Descrição |
 |---|---|
 | `npm run dev:api` | Inicia a API em modo desenvolvimento |
-| `npm run dev:web` | Inicia o frontend em modo desenvolvimento |
 | `npm run build:api` | Gera o build da API |
-| `npm run build:web` | Gera o build do frontend |
 | `npm run test:api` | Executa os testes da API |
 
 ## Testes e Coverage
 
-Para rodar os testes com relatório de cobertura:
+Para rodar os testes:
 
 ```bash
-cd apps/api && npx jest --runInBand --coverage
+npm run test:api
 ```
 
-Após a execução, abra o relatório HTML no navegador:
+Para rodar com relatório de cobertura (abre o navegador automaticamente):
 
 ```bash
-# Linux/macOS
-open apps/api/coverage/index.html
-
-# Windows
-start apps\api\coverage\index.html
+npm run test:api:coverage
 ```
 
 ## Endpoints
